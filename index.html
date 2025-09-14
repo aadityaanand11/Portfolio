@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aaditya Anand — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Aaditya Anand</h1>
+    <nav>
+      <a href="#about">About</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>I am a student learning web and backend development. I built a Notes API and simple projects.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Flask Notes API</strong> — A small API to create and manage notes. (Backend project)
+        </li>
+        <li>
+          <strong>Portfolio Website</strong> — This page (HTML, CSS, JavaScript).
+        </li>
+        <li>
+          <strong>ML Demo</strong> — Simple model example (Iris).
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <label>Name<br><input name="name" required></label><br>
+        <label>Email<br><input type="email" name="email" required></label><br>
+        <label>Message<br><textarea name="message" rows="3" required></textarea></label><br>
+        <button type="submit">Send</button>
+      </form>
+      <p id="msg"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Aaditya Anand</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
